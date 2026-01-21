@@ -42,6 +42,8 @@ body {
   width: 100%;
   min-height: 100%;
   font-size: 16px;
+  overflow-x: hidden;
+  color: var(--color-white);
 }
 
 img,
@@ -66,6 +68,7 @@ button {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 table {
@@ -122,6 +125,7 @@ textarea {
 
 .librebaskerville {
   font-family: 'LibreBaskerville';
+  font-weight: 400;
 }
 
 /* ******************** FONT ******************** */
@@ -282,7 +286,7 @@ textarea {
   font-family: 'LibreBaskerville';
   font-weight: 700;
   src:
-    local('Montserrat Bold'),
+    local('LibreBaskerville Bold'),
     url('/fonts/LibreBaskerville-Bold.woff2') format('woff2'),
     url('/fonts/LibreBaskerville-Bold.woff') format('woff');
 }

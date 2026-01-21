@@ -1,0 +1,109 @@
+import '../styles/about.css';
+import { StyledLink } from './common/CustomLink';
+import { StyledLabel } from './common/label';
+
+export default function About() {
+  return (
+    <section className="section about">
+      <div>
+        <h2>
+          안녕하세요!
+          <br />
+          프론트엔드 개발자 임한길 입니다.
+        </h2>
+        <p>
+          깔끔한 UI, 자연스러운 인터랙션, 그리고 사용자 친화적인 웹 경험을
+          좋아합니다.
+          <br />
+          React 기반 웹 애플리케이션과 인터랙션 구현에 관심이 많습니다.
+          <br />늘 성실함과 우직함으로 끊임없이 배우고 발전하겠습니다!
+        </p>
+        <div>
+          <a href="" target="_blank" title="">
+            GitHub
+          </a>
+          <a href="" target="_blank" title="">
+            이력서 다운로드
+          </a>
+          <StyledLink
+            $variant="primary"
+            href="https://github.com/onewayay"
+            target="_blank"
+            title="임한길 GitHub 새창열림으로 바로가기"
+          >
+            GitHub
+          </StyledLink>
+          <StyledLink
+            $variant="outline"
+            href=""
+            target="_blank"
+            title="임한길 이력서 다운로드"
+          >
+            이력서 다운로드
+          </StyledLink>
+          <StyledLabel>HTML</StyledLabel>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <h3>Profile</h3>
+          <ul>
+            <li>
+              <strong>이름:</strong>
+              <p>임한길</p>
+            </li>
+            <li>
+              <strong>주소:</strong>
+              <p>서울특별시 영등포구 영등포동2가 27-21 2층</p>
+            </li>
+            <li>
+              <strong>연락처:</strong>
+              <p>010-2532-5460</p>
+            </li>
+            <li>
+              <strong>이메일:</strong>
+              <p>onewayay@naver.com</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>Career</h3>
+          <ul>
+            <li>
+              <strong>
+                유영인포테크 <span>(2023.03 ~ 2024.09)</span>
+              </strong>
+              <p>
+                웹 퍼블리셔로 근무하며 홈페이지 제작, 웹 접근성 작업 및 유지보수
+                작업을 하였습니다.
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>Skills</h3>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Educated</h3>
+          <ul>
+            <li>
+              <strong>
+                멋쟁이사자처럼 <span>(2025.02 ~ 2025.08)</span>
+              </strong>
+              <p>멋쟁이사자처럼 프론트엔드 부트캠프 13기 과정 수료</p>
+            </li>
+            <li>
+              <strong>
+                하이미디어컴퓨터학원 <span>(2022.07 ~ 2023.01)</span>
+              </strong>
+              <p>UI/UX 웹디자인&웹퍼블리셔 과정 수료</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  );
+}

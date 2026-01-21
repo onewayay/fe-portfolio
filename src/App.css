@@ -1,0 +1,61 @@
+@import '/src/styles/stars.css';
+
+.portfolio-container {
+  position: relative;
+  width: 100vw;
+}
+
+.portfolio-container .hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/src/assets/images/hero-image.webp');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container .hero h1 {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.portfolio-container .hero h1 span:first-child {
+  text-indent: -20vw;
+  font-size: 88px;
+}
+.portfolio-container .hero h1 span:last-child {
+  text-indent: 20vw;
+  font-size: 120px;
+}
+
+.portfolio-container .section {
+  width: 100%;
+}
+
+/* ******************** image-container ******************** */
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  perspective: 0px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
