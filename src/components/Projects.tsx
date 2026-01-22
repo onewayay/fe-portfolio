@@ -1,4 +1,3 @@
-import '../styles/projects.css';
 import feProject from '../data/fe-projects.json';
 import ProjectItem from './FeProjectItem';
 
@@ -9,8 +8,10 @@ export default function Projects() {
 
   return (
     <section className="projects">
-      <h2 className="librebaskerville">PROJECTS</h2>
-      <ul className="project-list">{projcetList}</ul>
+      <div className="inner">
+        <h2 className="librebaskerville">PROJECTS</h2>
+        <ul className="project-list">{projcetList}</ul>
+      </div>
     </section>
   );
 }

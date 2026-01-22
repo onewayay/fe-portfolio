@@ -2,8 +2,9 @@ import './App.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import About from './components/about';
+import About from './components/About';
 import Projects from './components/Projects';
+import PubProjects from './components/PubProjects';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,15 +15,15 @@ function App() {
         scrollTrigger: {
           trigger: '.main',
           start: 'top top',
-          end: '+=150%',
+          end: '+=120%',
           pin: true,
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       })
       .to('.image-container img', {
         scale: 1,
-        z: 0.7,
+        z: 0.6,
         transformOrigin: 'center center',
         ease: 'power1.inOut',
       })
@@ -58,10 +59,9 @@ function App() {
                 <span>PORTFOLIO</span>
               </h1>
             </section>
-            <div className="portfolio-contents">
-              <About />
-              <Projects />
-            </div>
+            <About />
+            <Projects />
+            <PubProjects />
           </div>
           <div className="image-container">
             <img

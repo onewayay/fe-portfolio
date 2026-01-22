@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import type { Project } from '../types/project';
 import CustomLink from './common/CustomLink';
-import Label from './common/label';
+import Label from './common/Label';
 
 const ProjectItemLi = styled.li`
   width: calc((100% - 50px) / 2);
@@ -19,6 +19,11 @@ const ProjectItemLi = styled.li`
       background-color: rgba(0, 0, 0, 0.7);
       opacity: 1;
     }
+  }
+
+  &:focus-within .links {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
   }
 `;
 
@@ -44,8 +49,11 @@ const ProjectThumbnail = styled.div<{ $bgImg: string }>`
     position: absolute;
     bottom: 12px;
     left: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
     font-size: 10px;
-  }
+    color: var(--color-white);
+    background: #222222;
 `;
 
 const ProjectInfo = styled.div`
@@ -84,13 +92,14 @@ export default function FeProjectItem(project: Project) {
   const { id, title, bgImg, type, desc, skills, func, githubUrl, deployUrl } =
     project;
 
-  const skillList = skills.map((skill, idx) => {
+  const skillList = skills.map((skill) => {
     return (
-      <li key={idx}>
+      <li key={skill}>
         <Label>{skill}</Label>
       </li>
     );
   });
+
   return (
     <ProjectItemLi key={id}>
       <ProjectThumbnail $bgImg={bgImg!}>
