@@ -11,7 +11,7 @@ function App() {
     gsap
       .timeline({
         scrollTrigger: {
-          trigger: '.wrapper',
+          trigger: '.main',
           start: 'top top',
           end: '+=150%',
           pin: true,
@@ -26,7 +26,7 @@ function App() {
         ease: 'power1.inOut',
       })
       .to(
-        '.section.hero',
+        '.hero img',
         {
           scale: 1.1,
           transformOrigin: 'center center',
@@ -38,32 +38,38 @@ function App() {
 
   return (
     <>
-      <div className="star-bg">
-        <div className="stars-sm"></div>
-        <div className="stars-md"></div>
-        <div className="stars-lg"></div>
-      </div>
       <div className="wrapper">
-        <div className="portfolio-container">
-          <section className="hero">
-            <h1 className="librebaskerville">
-              <span>HANGIL'S</span>
-              <span>PORTFOLIO</span>
-            </h1>
-          </section>
-          <div className="portfolio-contents">
-            <About />
-            <section className="section projects librebaskerville">
-              projects
-            </section>
-          </div>
+        <div className="star-bg">
+          <div className="stars-sm" aria-hidden="true"></div>
+          <div className="stars-md" aria-hidden="true"></div>
+          <div className="stars-lg" aria-hidden="true"></div>
         </div>
-        {/* <div className="image-container">
-          <img
-            src="/src/assets/images/circle-bg-3x.webp"
-            alt="창문 너머로 바라보는 우주비행사 이미지"
-          ></img>
-        </div> */}
+        <main className="main">
+          <div className="portfolio-container">
+            <section className="hero">
+              <img
+                src="/src/assets/images/hero-image.webp"
+                alt=""
+                aria-hidden="true"
+              />
+              <h1 className="librebaskerville">
+                <span>HANGIL'S</span>
+                <span>PORTFOLIO</span>
+              </h1>
+            </section>
+            <div className="portfolio-contents">
+              <About />
+              <section className="projects librebaskerville">projects</section>
+            </div>
+          </div>
+          <div className="image-container">
+            <img
+              src="/src/assets/images/circle-bg-3x.webp"
+              alt=""
+              aria-hidden="true"
+            ></img>
+          </div>
+        </main>
       </div>
     </>
   );

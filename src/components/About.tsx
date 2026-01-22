@@ -4,8 +4,8 @@ import { StyledLabel } from './common/label';
 
 export default function About() {
   return (
-    <section className="section about">
-      <div>
+    <section className="about">
+      <div className="about-title">
         <h2>
           안녕하세요!
           <br />
@@ -18,13 +18,7 @@ export default function About() {
           React 기반 웹 애플리케이션과 인터랙션 구현에 관심이 많습니다.
           <br />늘 성실함과 우직함으로 끊임없이 배우고 발전하겠습니다!
         </p>
-        <div>
-          <a href="" target="_blank" title="">
-            GitHub
-          </a>
-          <a href="" target="_blank" title="">
-            이력서 다운로드
-          </a>
+        <div className="links">
           <StyledLink
             $variant="primary"
             href="https://github.com/onewayay"
@@ -41,13 +35,12 @@ export default function About() {
           >
             이력서 다운로드
           </StyledLink>
-          <StyledLabel>HTML</StyledLabel>
         </div>
       </div>
-      <ul>
+      <ul className="about-list">
         <li>
           <h3>Profile</h3>
-          <ul>
+          <ul className="profile-list">
             <li>
               <strong>이름:</strong>
               <p>임한길</p>
@@ -68,7 +61,7 @@ export default function About() {
         </li>
         <li>
           <h3>Career</h3>
-          <ul>
+          <ul className="career-list">
             <li>
               <strong>
                 유영인포테크 <span>(2023.03 ~ 2024.09)</span>
@@ -82,13 +75,39 @@ export default function About() {
         </li>
         <li>
           <h3>Skills</h3>
-          <ul>
-            <li></li>
+          <ul className="skill-list">
+            <li>
+              <StyledLabel>HTML</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>CSS</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>Tailwind CSS</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>JavaScript</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>jQuery</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>TypeScript</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>React</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>Next.js</StyledLabel>
+            </li>
+            <li>
+              <StyledLabel>Figma</StyledLabel>
+            </li>
           </ul>
         </li>
         <li>
           <h3>Educated</h3>
-          <ul>
+          <ul className="educated-list">
             <li>
               <strong>
                 멋쟁이사자처럼 <span>(2025.02 ~ 2025.08)</span>

@@ -1,2 +1,106 @@
-.about {
+/* ******************** about-title ******************** */
+.about .about-title {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  text-align: center;
+}
+
+.about .about-title h2 {
+  font-size: 36px;
+}
+
+.about .about-title p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.about .about-title .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ******************** about-list ******************** */
+.about .about-list {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 88px;
+  padding: 0 44px;
+}
+
+.about .about-list > li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  border: 1px solid var(--color-primary);
+  border-radius: 16px;
+}
+
+.about .about-list > li h3 {
+  font-family: 'LibreBaskerville';
+  position: absolute;
+  top: 0;
+  left: 12px;
+  transform: translateY(-50%);
+  padding: 4px 10px;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--color-primary);
+  background-color: var(--color-midnight);
+}
+
+/* profile */
+.profile-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.profile-list li {
+  display: flex;
+  gap: 6px;
+}
+
+.profile-list li strong {
+  font-weight: bold;
+}
+
+/* career, educated */
+.career-list,
+.educated-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.career-list li,
+.educated-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.career-list li strong,
+.educated-list li strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.career-list li strong span,
+.educated-list li strong span {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-light-gray);
+}
+/* skills */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
