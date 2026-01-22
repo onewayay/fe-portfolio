@@ -52,7 +52,7 @@
   {
     "id": 4,
     "title": "Pokémon Card Collection",
-    "bgImg": "/src/assets/images/pokemon-thumb.png",
+    "bgImg": "/src/assets/images/pokemon-thumb.jpg",
     "type": "팀 프로젝트 (4인)",
     "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을도감에서 확인하고, 그 외 포켓 몬 타입별 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
     "skills": [
