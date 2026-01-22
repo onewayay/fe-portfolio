@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "버거킹 클론 코딩",
+    "type": "팀 프로젝트 (4인)",
+    "desc": "버거킹 공식 웹사이트를 클론하여 기존 웹사이트의 접근성 문제 개선하고 최신 UI/UX 트렌드를 반영한 반응형 웹사이트 제작 및 컴포넌트 기반 개발",
+    "skills": [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "Figma",
+      "Vite",
+      "Netlify"
+    ],
+    "githubUrl": "https://github.com/FRONTENDBOOTCAMP-13th/1rem",
+    "deployUrl": "https://1rem.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "2023 임한길 포트폴리오",
+    "type": "개인 프로젝트",
+    "desc": "2023년 퍼블리셔 취업을 위해 만든 임한길 포트폴리오",
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
+    "deployUrl": "https://onewayay.github.io/2023-publisher-portfolio/"
+  },
+  {
+    "id": 3,
+    "title": "에몬스 침대 웹사이트 UI/UX 리디자인",
+    "type": "개인 프로젝트",
+    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 중요 컨텐츠를 압축하고 시각적 효과를 중심으로 개선하여 제작",
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
+    "deployUrl": "https://onewayay.github.io/publisher-project1/"
+  },
+  {
+    "id": 4,
+    "title": "한국도자기 웹사이트 UI/UX 리디자인",
+    "type": "개인 프로젝트",
+    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 부족했던 정보성 콘텐츠를 이미지와 KeyText 중심으로 개선하여 제작",
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
+    "deployUrl": "https://onewayay.github.io/publisher-project2/"
+  },
+  {
+    "id": 5,
+    "title": "INNOFORCE 웹사이트 UI/UX 리디자인",
+    "type": "개인 프로젝트",
+    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 불편한 점과 부족했던 정보성 콘텐츠를 중심으로 개선하여 제작",
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "deployUrl": "https://onewayay.github.io/2023-publisher-portfolio/"
+  }
+]

@@ -11,6 +11,6 @@ export const StyledLabel = styled.span`
   border-radius: 6px;
 `;
 
-export default function Label(children: ReactNode) {
+export default function Label({ children }: { children: ReactNode }) {
   return <StyledLabel>{children}</StyledLabel>;
 }

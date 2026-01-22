@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "UgVeg: 흙내음 상점",
+    "bgImg": "/src/assets/images/ugveg-thumb.png",
     "type": "팀 프로젝트 (4인)",
     "desc": "버려지는 못난이 농산물을 합리적인 가격에 제공하고, 그 농산물로 만든  레시피를 함께 나누는 커뮤니티 기반 쇼핑 플랫폼",
     "skills": [
@@ -20,6 +21,7 @@
   {
     "id": 2,
     "title": "WLC MOONLIGHT",
+    "bgImg": "/src/assets/images/wlc-thumb.png",
     "type": "개인 프로젝트",
     "desc": "웨스트민스터 대요리문답 1문부터 196문까지의 한글 · 영문 문답과 각 문답에 인용된 성경 근거 구절을 함께 제공하는 신앙 학습 서비스",
     "skills": ["React", "LocalStorage", "Figma", "Vite", "Vercel"],
@@ -30,6 +32,7 @@
   {
     "id": 3,
     "title": "Mudo Playground: ALL MUDO",
+    "bgImg": "/src/assets/images/allmudo-thumb.jpg",
     "type": "팀 프로젝트 (2인)",
     "desc": "무한도전 종영 10주년을 맞아 없없무(없는게 없는 무한도전)의 짤들을 통해 미니 게임들과 상황별 이미지 찾기 기능을 제공하는 무한도전 팬 페이지",
     "skills": [
@@ -49,6 +52,7 @@
   {
     "id": 4,
     "title": "Pokémon Card Collection",
+    "bgImg": "/src/assets/images/pokemon-thumb.png",
     "type": "팀 프로젝트 (4인)",
     "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을도감에서 확인하고, 그 외 포켓 몬 타입별 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
     "skills": [
@@ -64,53 +68,5 @@
     "func": "프로젝트 전체 로직 설계, 프로젝트 인트로 페이지, Town 페이지 캐릭터 이동 및 페이지 이동 기능 구현, 공통 스타일 시스템 구축, 공통 기능 구현 (Local  Storage 기반 사용자 정보 및 도감 get/set, 뒤로가기 버튼 및 소리 on/off 버튼 기능)",
     "githubUrl": "https://github.com/FRONTENDBOOTCAMP-13th/JS-04-404-Not-Found",
     "deployUrl": "https://pokemon-cc.netlify.app/"
-  },
-  {
-    "id": 5,
-    "title": "버거킹 클론 코딩",
-    "type": "팀 프로젝트 (4인)",
-    "desc": "버거킹 공식 웹사이트를 클론하여 기존 웹사이트의 접근성 문제 개선하고 최신 UI/UX 트렌드를 반영한 반응형 웹사이트 제작 및 컴포넌트 기반 개발",
-    "skills": [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "Figma",
-      "Vite",
-      "Netlify"
-    ],
-    "githubUrl": "https://github.com/FRONTENDBOOTCAMP-13th/1rem",
-    "deployUrl": "https://1rem.netlify.app/"
-  },
-  {
-    "id": 6,
-    "title": "2023 임한길 포트폴리오",
-    "type": "개인 프로젝트",
-    "desc": "2023년 퍼블리셔 취업을 위해 만든 임한길 포트폴리오",
-    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
-    "deployUrl": "https://onewayay.github.io/2023-publisher-portfolio/"
-  },
-  {
-    "id": 7,
-    "title": "에몬스 침대 웹사이트 UI/UX 리디자인",
-    "type": "개인 프로젝트",
-    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 중요 컨텐츠를 압축하고 시각적 효과를 중심으로 개선하여 제작",
-    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
-    "deployUrl": "https://onewayay.github.io/publisher-project1/"
-  },
-  {
-    "id": 8,
-    "title": "한국도자기 웹사이트 UI/UX 리디자인",
-    "type": "개인 프로젝트",
-    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 부족했던 정보성 콘텐츠를 이미지와 KeyText 중심으로 개선하여 제작",
-    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Figma"],
-    "deployUrl": "https://onewayay.github.io/publisher-project2/"
-  },
-  {
-    "id": 9,
-    "title": "INNOFORCE 웹사이트 UI/UX 리디자인",
-    "type": "개인 프로젝트",
-    "desc": "As-Is / To-Be 관점에서 UI 및 UX를 개선한 개인 프로젝트. 기존 사이트에서 불편한 점과 부족했던 정보성 콘텐츠를 중심으로 개선하여 제작",
-    "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "deployUrl": "https://onewayay.github.io/2023-publisher-portfolio/"
   }
 ]

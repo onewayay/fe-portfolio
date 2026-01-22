@@ -54,52 +54,53 @@
 }
 
 /* profile */
-.profile-list {
+.about .about-list .profile-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 12px;
 }
 
-.profile-list li {
+.about .about-list .profile-list li {
   display: flex;
   gap: 6px;
 }
 
-.profile-list li strong {
+.about .about-list .profile-list li strong {
   font-weight: bold;
 }
 
 /* career, educated */
-.career-list,
-.educated-list {
+.about .about-list .career-list,
+.about .about-list .educated-list {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-.career-list li,
-.educated-list li {
+.about .about-list .career-list li,
+.about .about-list .educated-list li {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.career-list li strong,
-.educated-list li strong {
+.about .about-list .career-list li strong,
+.about .about-list .educated-list li strong {
   display: inline-flex;
   align-items: center;
   gap: 12px;
   font-size: 18px;
 }
 
-.career-list li strong span,
-.educated-list li strong span {
+.about .about-list .career-list li strong span,
+.about .about-list .educated-list li strong span {
   font-size: 14px;
   font-weight: 300;
   color: var(--color-light-gray);
 }
+
 /* skills */
-.skill-list {
+.about .about-list .skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;

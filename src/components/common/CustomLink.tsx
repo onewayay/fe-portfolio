@@ -59,7 +59,12 @@ export const StyledLink = styled.a<{
 export default function CustomLink(props: CustomLinkProps) {
   const { children, variant, href } = props;
   return (
-    <StyledLink $variant={variant} href={href}>
+    <StyledLink
+      $variant={variant}
+      href={href}
+      target="_blank"
+      title="새창열림으로 바로가기"
+    >
       {children}
     </StyledLink>
   );

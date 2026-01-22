@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import About from './components/about';
+import Projects from './components/Projects';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,7 +60,7 @@ function App() {
             </section>
             <div className="portfolio-contents">
               <About />
-              <section className="projects librebaskerville">projects</section>
+              <Projects />
             </div>
           </div>
           <div className="image-container">
