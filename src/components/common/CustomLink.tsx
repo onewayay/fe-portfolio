@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import type {
   CustomLinkProps,
+  CustomLinkSize,
   CustomLinkVariant,
 } from '../../types/customLink';
 
@@ -35,8 +36,14 @@ const variantStyles = {
   },
 };
 
+const buttonSize = {
+  lg: '18px',
+  base: '16px',
+};
+
 export const StyledLink = styled.a<{
   $variant: CustomLinkVariant;
+  $size: CustomLinkSize;
 }>`
   display: inline-flex;
   align-items: center;
@@ -45,6 +52,7 @@ export const StyledLink = styled.a<{
   padding: 10px 20px;
   border: 1px solid ${({ $variant }) => variantStyles[$variant].border};
   border-radius: 8px;
+  font-size: ${({ $size }) => buttonSize[$size]};
   background-color: ${({ $variant }) => variantStyles[$variant].bg};
   color: ${({ $variant }) => variantStyles[$variant].color};
   transition: 0.3s;
@@ -57,10 +65,11 @@ export const StyledLink = styled.a<{
 `;
 
 export default function CustomLink(props: CustomLinkProps) {
-  const { children, variant, href } = props;
+  const { children, variant, size, href } = props;
   return (
     <StyledLink
       $variant={variant}
+      $size={size}
       href={href}
       target="_blank"
       title="새창열림으로 바로가기"

@@ -74,11 +74,11 @@ export default function PubProjectItem(project: Project) {
       <ul className="skill-list">{skillList}</ul>
       <div className="links">
         {githubUrl && (
-          <CustomLink variant="gray" href={githubUrl}>
+          <CustomLink variant="gray" size="base" href={githubUrl}>
             GitHub Repository
           </CustomLink>
         )}
-        <CustomLink variant="secondary" href={deployUrl!}>
+        <CustomLink variant="secondary" size="base" href={deployUrl!}>
           배포 URL
         </CustomLink>
       </div>

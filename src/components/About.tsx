@@ -1,5 +1,5 @@
 import '../styles/about.css';
-import { StyledLink } from './common/CustomLink';
+import CustomLink from './common/CustomLink';
 import { StyledLabel } from './common/Label';
 
 export default function About() {
@@ -20,22 +20,16 @@ export default function About() {
             <br />늘 성실함과 우직함으로 끊임없이 배우고 발전하겠습니다!
           </p>
           <div className="links">
-            <StyledLink
-              $variant="primary"
+            <CustomLink
+              variant="primary"
+              size="lg"
               href="https://github.com/onewayay"
-              target="_blank"
-              title="임한길 GitHub 새창열림으로 바로가기"
             >
               GitHub
-            </StyledLink>
-            <StyledLink
-              $variant="outline"
-              href=""
-              target="_blank"
-              title="임한길 이력서 다운로드"
-            >
+            </CustomLink>
+            <CustomLink variant="outline" size="lg" href="">
               이력서 다운로드
-            </StyledLink>
+            </CustomLink>
           </div>
         </div>
         <ul className="about-list">
