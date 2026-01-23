@@ -1,16 +1,34 @@
+import { ReactTyped } from 'react-typed';
 import '../styles/about.css';
 import CustomLink from './common/CustomLink';
 import { StyledLabel } from './common/Label';
+
+export function AboutTypedTitle() {
+  return (
+    <ReactTyped
+      strings={['안녕하세요!\n프론트엔드 개발자 임한길 입니다.']}
+      typeSpeed={60}
+      backSpeed={40}
+      backDelay={2000}
+      loop
+    >
+      <pre className="about-typed" />
+    </ReactTyped>
+  );
+}
 
 export default function About() {
   return (
     <section className="about" data-section="about">
       <div className="inner">
         <div className="about-title">
-          <h2>
+          {/* <h2>
             안녕하세요!
             <br />
             프론트엔드 개발자 임한길 입니다.
+          </h2> */}
+          <h2>
+            <AboutTypedTitle />
           </h2>
           <p>
             깔끔한 UI, 자연스러운 인터랙션, 그리고 사용자 친화적인 웹 경험을

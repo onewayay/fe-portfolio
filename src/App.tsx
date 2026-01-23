@@ -80,13 +80,13 @@ function App() {
             <Projects />
             <PubProjects />
           </div>
-          <div className="image-container">
+          {/* <div className="image-container">
             <img
               src="/src/assets/images/circle-bg-3x.webp"
               alt=""
               aria-hidden="true"
             ></img>
-          </div>
+          </div> */}
         </main>
         <Footer />
       </div>

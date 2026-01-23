@@ -7,7 +7,26 @@
 }
 
 .about .about-title h2 {
+  height: calc(36px * 1.5 * 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 36px;
+}
+
+.about .about-typed {
+  position: relative;
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.4;
+  white-space: pre;
+}
+
+/* react-typed 커서 */
+.about .about-typed + .typed-cursor {
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
 }
 
 .about .about-title p {
