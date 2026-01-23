@@ -105,12 +105,12 @@ export default function FeProjectItem(project: Project) {
       <ProjectThumbnail $bgImg={bgImg!}>
         <div className="links">
           {githubUrl && (
-            <CustomLink variant="gray" href={githubUrl}>
+            <CustomLink variant="gray" size="base" href={githubUrl}>
               GitHub Repository
             </CustomLink>
           )}
           {deployUrl && (
-            <CustomLink variant="primary" href={deployUrl}>
+            <CustomLink variant="primary" size="base" href={deployUrl}>
               배포 URL
             </CustomLink>
           )}

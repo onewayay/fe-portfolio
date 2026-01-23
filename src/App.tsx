@@ -35,6 +35,14 @@ function App() {
           ease: 'power1.inOut',
         },
         '<',
+      )
+      .to(
+        '.hero h1',
+        {
+          bottom: '10%',
+          ease: 'power1.inOut',
+        },
+        '<',
       );
   }, []);
 
