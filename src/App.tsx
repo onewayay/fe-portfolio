@@ -20,7 +20,7 @@ function App() {
           end: '+=120%',
           pin: true,
           scrub: 1.2,
-          markers: true,
+          // markers: true,
         },
       })
       .to('.image-container img', {
