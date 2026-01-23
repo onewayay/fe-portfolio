@@ -4,7 +4,7 @@ import { StyledLabel } from './common/Label';
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" data-section="about">
       <div className="inner">
         <div className="about-title">
           <h2>

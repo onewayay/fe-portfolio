@@ -7,7 +7,7 @@ export default function Projects() {
   });
 
   return (
-    <section className="projects">
+    <section className="projects" data-section="projects">
       <div className="inner">
         <h2 className="librebaskerville">PROJECTS</h2>
         <ul className="project-list">{projcetList}</ul>

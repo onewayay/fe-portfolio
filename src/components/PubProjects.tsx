@@ -17,8 +17,9 @@ export default function PubProjects() {
 
   return (
     <section className="pub-projects">
-      <h2 className="librebaskerville">PUBLISHING PROJECTS</h2>
       <div className="inner">
+        <h2 className="librebaskerville">PUBLISHING PROJECTS</h2>
+
         <button className="swiper-button-prev" />
         <Swiper
           slidesPerView={2}

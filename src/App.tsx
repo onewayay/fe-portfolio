@@ -5,6 +5,8 @@ import { useGSAP } from '@gsap/react';
 import About from './components/About';
 import Projects from './components/Projects';
 import PubProjects from './components/PubProjects';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,13 +19,14 @@ function App() {
           start: 'top top',
           end: '+=120%',
           pin: true,
-          scrub: true,
-          // markers: true,
+          scrub: 1.2,
+          markers: true,
         },
       })
       .to('.image-container img', {
         scale: 1,
         z: 0.6,
+        duration: 2,
         transformOrigin: 'center center',
         ease: 'power1.inOut',
       })
@@ -31,6 +34,7 @@ function App() {
         '.hero img',
         {
           scale: 1.1,
+          duration: 2,
           transformOrigin: 'center center',
           ease: 'power1.inOut',
         },
@@ -40,15 +44,20 @@ function App() {
         '.hero h1',
         {
           bottom: '10%',
+          duration: 2,
           ease: 'power1.inOut',
         },
         '<',
-      );
+      )
+      .to('header', {
+        zIndex: 1,
+      });
   }, []);
 
   return (
     <>
       <div className="wrapper">
+        <Header />
         <div className="star-bg">
           <div className="stars-sm" aria-hidden="true"></div>
           <div className="stars-md" aria-hidden="true"></div>
@@ -79,6 +88,7 @@ function App() {
             ></img>
           </div>
         </main>
+        <Footer />
       </div>
     </>
   );

@@ -107,6 +107,10 @@
 }
 
 /* ******************** publishing-projects ******************** */
+.portfolio-container > section.pub-projects {
+  padding-bottom: 100px;
+}
+
 .pub-projects h2 {
   font-size: 48px;
   font-weight: bold;
@@ -115,7 +119,7 @@
 
 .pub-projects .inner {
   position: relative;
-  margin: 80px auto 120px;
+  margin: 0 auto;
   max-width: 1100px;
 }
 
@@ -138,7 +142,7 @@
 }
 
 .pub-projects .inner .pub-project-swiper {
-  padding: 40px 10px 40px;
+  padding: 100px 10px 60px;
 }
 
 .pub-projects .inner .pub-project-swiper .swiper-pagination {
