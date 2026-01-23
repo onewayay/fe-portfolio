@@ -125,6 +125,7 @@
 
 .pub-projects .inner .swiper-button-prev,
 .pub-projects .inner .swiper-button-next {
+  top: 60%;
   color: var(--color-white);
   transition: 0.3s;
 }
