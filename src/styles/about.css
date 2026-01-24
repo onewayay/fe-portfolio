@@ -57,6 +57,14 @@
   padding: 32px;
   border: 1px solid var(--color-primary);
   border-radius: 16px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s ease;
+}
+
+.about .about-list > li.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about .about-list > li h3 {

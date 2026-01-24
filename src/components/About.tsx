@@ -22,11 +22,6 @@ export default function About() {
     <section className="about" data-section="about">
       <div className="inner">
         <div className="about-title">
-          {/* <h2>
-            안녕하세요!
-            <br />
-            프론트엔드 개발자 임한길 입니다.
-          </h2> */}
           <h2>
             <AboutTypedTitle />
           </h2>
@@ -51,7 +46,7 @@ export default function About() {
           </div>
         </div>
         <ul className="about-list">
-          <li>
+          <li className="move-item">
             <h3>Profile</h3>
             <ul className="profile-list">
               <li>
@@ -72,7 +67,7 @@ export default function About() {
               </li>
             </ul>
           </li>
-          <li>
+          <li className="move-item">
             <h3>Career</h3>
             <ul className="career-list">
               <li>
@@ -86,7 +81,7 @@ export default function About() {
               </li>
             </ul>
           </li>
-          <li>
+          <li className="move-item">
             <h3>Skills</h3>
             <ul className="skill-list">
               <li>
@@ -118,7 +113,7 @@ export default function About() {
               </li>
             </ul>
           </li>
-          <li>
+          <li className="move-item">
             <h3>Educated</h3>
             <ul className="educated-list">
               <li>

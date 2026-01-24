@@ -19,25 +19,26 @@ export default function PubProjects() {
     <section className="pub-projects">
       <div className="inner">
         <h2 className="librebaskerville">PUBLISHING PROJECTS</h2>
-
-        <button className="swiper-button-prev" />
-        <Swiper
-          slidesPerView={2}
-          spaceBetween={60}
-          loop={true}
-          modules={[Navigation, Pagination]}
-          navigation={{
-            prevEl: '.swiper-button-prev',
-            nextEl: '.swiper-button-next',
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          className="pub-project-swiper"
-        >
-          {pubProjectList}
-        </Swiper>
-        <button className="swiper-button-next" />
+        <div className="move-item">
+          <button className="swiper-button-prev" />
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={60}
+            loop={true}
+            modules={[Navigation, Pagination]}
+            navigation={{
+              prevEl: '.swiper-button-prev',
+              nextEl: '.swiper-button-next',
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            className="pub-project-swiper"
+          >
+            {pubProjectList}
+          </Swiper>
+          <button className="swiper-button-next" />
+        </div>
       </div>
     </section>
   );

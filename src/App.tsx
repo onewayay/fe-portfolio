@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import PubProjects from './components/PubProjects';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { useEffect } from 'react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +21,7 @@ function App() {
           end: '+=120%',
           pin: true,
           scrub: 1.2,
+          id: 'heroPin',
           // markers: true,
         },
       })
@@ -54,6 +56,35 @@ function App() {
       });
   }, []);
 
+  useEffect(() => {
+    const items = document.querySelectorAll<HTMLElement>('.move-item');
+    if (!items.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const target = entry.target as HTMLElement;
+
+          if (entry.isIntersecting) {
+            target.classList.add('active');
+          } else {
+            target.classList.remove('active');
+          }
+        });
+      },
+      {
+        rootMargin: '-20% 0px -10% 0px',
+        threshold: 0,
+      },
+    );
+
+    items.forEach((item) => observer.observe(item));
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <>
       <div className="wrapper">
@@ -80,13 +111,13 @@ function App() {
             <Projects />
             <PubProjects />
           </div>
-          {/* <div className="image-container">
+          <div className="image-container">
             <img
               src="/src/assets/images/circle-bg-3x.webp"
               alt=""
               aria-hidden="true"
             ></img>
-          </div> */}
+          </div>
         </main>
         <Footer />
       </div>

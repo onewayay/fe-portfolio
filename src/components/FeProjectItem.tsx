@@ -101,7 +101,7 @@ export default function FeProjectItem(project: Project) {
   });
 
   return (
-    <ProjectItemLi key={id}>
+    <ProjectItemLi key={id} className="move-item">
       <ProjectThumbnail $bgImg={bgImg!}>
         <div className="links">
           {githubUrl && (
