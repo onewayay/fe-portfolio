@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "UgVeg: 흙내음 상점",
-    "bgImg": "/src/assets/images/ugveg-thumb.png",
+    "bgImg": "/images/ugveg-thumb.png",
     "type": "팀 프로젝트 (4인)",
     "desc": "버려지는 못난이 농산물을 합리적인 가격에 제공하고, 그 농산물로 만든  레시피를 함께 나누는 커뮤니티 기반 쇼핑 플랫폼",
     "skills": [
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "title": "WLC MOONLIGHT",
-    "bgImg": "/src/assets/images/wlc-thumb.png",
+    "bgImg": "/images/wlc-thumb.png",
     "type": "개인 프로젝트",
     "desc": "웨스트민스터 대요리문답 1문부터 196문까지의 한글 · 영문 문답과 각 문답에 인용된 성경 근거 구절을 함께 제공하는 신앙 학습 서비스",
     "skills": ["React", "LocalStorage", "Figma", "Vite", "Vercel"],
@@ -33,7 +33,7 @@
   {
     "id": 3,
     "title": "Mudo Playground: ALL MUDO",
-    "bgImg": "/src/assets/images/allmudo-thumb.jpg",
+    "bgImg": "/images/allmudo-thumb.jpg",
     "type": "팀 프로젝트 (2인)",
     "desc": "무한도전 종영 10주년을 맞아 없없무(없는게 없는 무한도전)의 짤들을 통해 미니 게임들과 상황별 이미지 찾기 기능을 제공하는 무한도전 팬 페이지",
     "skills": [
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "title": "Pokémon Card Collection",
-    "bgImg": "/src/assets/images/pokemon-thumb.jpg",
+    "bgImg": "/images/pokemon-thumb.jpg",
     "type": "팀 프로젝트 (4인)",
     "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을도감에서 확인하고, 그 외 포켓 몬 타입별 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
     "skills": [

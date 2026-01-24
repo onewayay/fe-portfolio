@@ -97,11 +97,7 @@ function App() {
         <main className="main">
           <div className="portfolio-container">
             <section className="hero">
-              <img
-                src="/src/assets/images/hero-image.webp"
-                alt=""
-                aria-hidden="true"
-              />
+              <img src="/images/hero-image.webp" alt="" aria-hidden="true" />
               <h1 className="librebaskerville">
                 <span>HANGIL'S</span>
                 <span>PORTFOLIO</span>
@@ -113,7 +109,7 @@ function App() {
           </div>
           <div className="image-container">
             <img
-              src="/src/assets/images/circle-bg-3x.webp"
+              src="/images/circle-bg-3x.webp"
               alt=""
               aria-hidden="true"
             ></img>
