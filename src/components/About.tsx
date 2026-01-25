@@ -1,5 +1,4 @@
 import { ReactTyped } from 'react-typed';
-import '../styles/about.css';
 import CustomLink from './common/CustomLink';
 import { StyledLabel } from './common/Label';
 
