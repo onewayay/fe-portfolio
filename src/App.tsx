@@ -27,7 +27,7 @@ function App() {
       })
       .to('.image-container img', {
         scale: 1,
-        z: 0.6,
+        z: 0.9,
         duration: 2,
         transformOrigin: 'center center',
         ease: 'power1.inOut',
@@ -45,6 +45,7 @@ function App() {
       .to(
         '.hero h1',
         {
+          opacity: 1,
           bottom: '10%',
           duration: 2,
           ease: 'power1.inOut',

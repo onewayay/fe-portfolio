@@ -45,6 +45,7 @@
   align-items: center;
   line-height: 1.2;
   font-weight: 700;
+  opacity: 0;
 }
 
 .portfolio-container .hero h1 span:first-child {
