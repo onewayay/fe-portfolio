@@ -1,4 +1,4 @@
-@import '/src/styles/stars.css';
+@import "/src/styles/stars.css";
 
 /* ******************** portfolio-container ******************** */
 .portfolio-container {
@@ -15,7 +15,7 @@
 }
 
 .portfolio-container .hero::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -139,8 +139,9 @@
 /* about-list */
 .about .about-list {
   margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 50px 88px;
   padding: 0 44px;
 }
@@ -150,6 +151,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: calc((100% - 88px) / 2);
   padding: 32px;
   border: 1px solid var(--color-primary);
   border-radius: 16px;
@@ -164,7 +166,7 @@
 }
 
 .about .about-list > li h3 {
-  font-family: 'LibreBaskerville';
+  font-family: "LibreBaskerville";
   position: absolute;
   top: 0;
   left: 12px;
