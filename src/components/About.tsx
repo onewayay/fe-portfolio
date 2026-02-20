@@ -1,11 +1,11 @@
-import { ReactTyped } from 'react-typed';
-import CustomLink from './common/CustomLink';
-import { StyledLabel } from './common/Label';
+import { ReactTyped } from "react-typed";
+import CustomLink from "./common/CustomLink";
+import { StyledLabel } from "./common/Label";
 
 export function AboutTypedTitle() {
   return (
     <ReactTyped
-      strings={['안녕하세요!\n프론트엔드 개발자 임한길 입니다.']}
+      strings={["안녕하세요!\n프론트엔드 개발자 임한길 입니다."]}
       typeSpeed={60}
       backSpeed={40}
       backDelay={2000}
@@ -72,20 +72,6 @@ export default function About() {
             </ul>
           </li>
           <li className="move-item">
-            <h3>Career</h3>
-            <ul className="career-list">
-              <li>
-                <strong>
-                  유영인포테크 <span>(2023.03 ~ 2024.09)</span>
-                </strong>
-                <p>
-                  웹 퍼블리셔로 근무하며 홈페이지 제작, 웹 접근성 작업 및
-                  유지보수 작업을 하였습니다.
-                </p>
-              </li>
-            </ul>
-          </li>
-          <li className="move-item">
             <h3>Skills</h3>
             <ul className="skill-list">
               <li>
@@ -131,6 +117,29 @@ export default function About() {
                   하이미디어컴퓨터학원 <span>(2022.07 ~ 2023.01)</span>
                 </strong>
                 <p>UI/UX 웹디자인&웹퍼블리셔 과정 수료</p>
+              </li>
+            </ul>
+          </li>
+          <li className="move-item">
+            <h3>Career</h3>
+            <ul className="career-list">
+              <li>
+                <strong>
+                  멋쟁이사자처럼 인턴십 <span>(2026.02 ~ 진행중)</span>
+                </strong>
+                <p>
+                  프론트엔드 인턴으로 근무하며 AI 기술 블로그 글 생성 서비스
+                  작업을 진행중입니다.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  유영인포테크 <span>(2023.03 ~ 2024.09)</span>
+                </strong>
+                <p>
+                  웹 퍼블리셔로 근무하며 홈페이지 제작, 웹 접근성 작업 및
+                  유지보수 작업을 하였습니다.
+                </p>
               </li>
             </ul>
           </li>
