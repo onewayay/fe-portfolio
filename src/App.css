@@ -125,7 +125,10 @@
   bottom: 0;
 }
 
-.about .about-title p {
+.about .about-title ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   line-height: 1.6;
   font-size: 18px;
 }
