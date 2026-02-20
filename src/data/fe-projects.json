@@ -15,8 +15,7 @@
       "Vite",
       "Vercel"
     ],
-    "func": "메인(Index) 페이지, 상품 리스트 및 상품 상세페이지 개발, 상품 검색 기능  구현, 상품–레시피 연동 로직 구현, 상품 찜하기 및 개별 주문 기능 구현",
-    "githubUrl": "https://github.com/FRONTENDBOOTCAMP-13th/Final-13-13tachi",
+    "notionUrl": "https://mango-haumea-e5f.notion.site/UgVeg-30a91c235079800facb9d98b95894a2a?source=copy_link",
     "deployUrl": "https://ugveg.vercel.app/"
   },
   {
@@ -25,9 +24,17 @@
     "bgImg": "/images/wlc-thumb.png",
     "type": "개인 프로젝트",
     "desc": "웨스트민스터 대요리문답 1문부터 196문까지의 한글 · 영문 문답과 각 문답에 인용된 성경 근거 구절을 함께 제공하는 신앙 학습 서비스",
-    "skills": ["React", "LocalStorage", "Figma", "Vite", "Vercel"],
-    "func": "웨스트민스터 대요리문답 전체 문답의 분석된 구조·구문 및 성경 근거 구절  제공, 한글 / 영어 문답 전환 기능 구현, 다크 / 라이트 테마 전환 기능 구현, 문항 번호 및  키워드 기반 문답 검색 기능 구현, 각주 성경 구절과 해당 문답 간 매칭 기능 제공, 사용자별 최근 열람한 문답 기록 제공",
-    "githubUrl": "https://github.com/onewayay/WLC-MOONLIGHT",
+    "skills": [
+      "React",
+      "CSS",
+      "LocalStorage",
+      "Context API",
+      "Figma",
+      "v0",
+      "Vite",
+      "Vercel"
+    ],
+    "notionUrl": "https://mango-haumea-e5f.notion.site/WLC-MOONLIGHT-30b91c23507980ada728c51414d0ea85?source=copy_link",
     "deployUrl": "https://wlcmoonlight.vercel.app/"
   },
   {
@@ -39,15 +46,14 @@
     "skills": [
       "React",
       "TypeScript",
-      "GSAP",
       "Tailwind CSS",
+      "GSAP",
+      "Jotai",
       "Figma",
       "Vite",
-      "Vercel",
-      "Firebase"
+      "Vercel"
     ],
-    "func": "프로젝트 기획, 메인(Index) 페이지 개발, 짤 순서 맞추기 미니게임 로직 구현",
-    "githubUrl": "https://github.com/mudo-labs/mudo-playground",
+    "notionUrl": "https://mango-haumea-e5f.notion.site/Mudo-Playground-ALL-MUDO-30b91c23507980a79fcbd760a3f3a61e?source=copy_link",
     "deployUrl": "https://mudo-playground.vercel.app/"
   },
   {
@@ -55,19 +61,18 @@
     "title": "Pokémon Card Collection",
     "bgImg": "/images/pokemon-thumb.jpg",
     "type": "팀 프로젝트 (4인)",
-    "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을도감에서 확인하고, 그 외 포켓 몬 타입별 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
+    "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을 도감에서 확인하고, 타입별로 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
     "skills": [
       "HTML",
       "CSS",
       "TypeScript",
-      "LocalStorage",
       "Three.js",
+      "LocalStorage",
       "Figma",
       "Vite",
       "Netlify"
     ],
-    "func": "프로젝트 전체 로직 설계, 프로젝트 인트로 페이지, Town 페이지 캐릭터 이동 및 페이지 이동 기능 구현, 공통 스타일 시스템 구축, 공통 기능 구현 (Local  Storage 기반 사용자 정보 및 도감 get/set, 뒤로가기 버튼 및 소리 on/off 버튼 기능)",
-    "githubUrl": "https://github.com/FRONTENDBOOTCAMP-13th/JS-04-404-Not-Found",
+    "notionUrl": "https://mango-haumea-e5f.notion.site/Pok-mon-Card-Collection-30a91c2350798026bb7dd959d261d5d0?source=copy_link",
     "deployUrl": "https://pokemon-cc.netlify.app/"
   }
 ]

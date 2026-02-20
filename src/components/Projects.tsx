@@ -1,9 +1,9 @@
 import feProject from '../data/fe-projects.json';
-import ProjectItem from './FeProjectItem';
+import FeProjectItem from './FeProjectItem';
 
 export default function Projects() {
   const projcetList = feProject.map((project) => {
-    return <ProjectItem key={project.id} {...project} />;
+    return <FeProjectItem key={project.id} {...project} />;
   });
 
   return (

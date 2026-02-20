@@ -5,7 +5,7 @@ export interface Project {
   type: string;
   desc: string;
   skills: string[];
-  func?: string;
+  notionUrl?: string;
   githubUrl?: string;
   deployUrl: string;
 }

@@ -12,18 +12,7 @@ const ProjectItemLi = styled.li`
   overflow: hidden;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 2px 2px 14px rgba(48, 211, 183, 0.25);
-
-    .links {
-      background-color: rgba(0, 0, 0, 0.7);
-      opacity: 1;
-    }
-  }
-
-  &:focus-within .links {
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 1;
   }
 `;
 
@@ -33,17 +22,6 @@ const ProjectThumbnail = styled.div<{ $bgImg: string }>`
   height: 300px;
   background: url(${(props) => props.$bgImg}) no-repeat center;
   background-size: cover;
-
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.3s;
-  }
 
   span {
     position: absolute;
@@ -77,19 +55,17 @@ const ProjectInfo = styled.div`
     gap: 10px;
   }
 
-  .func {
+  .links {
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-
-    strong {
-      font-size: 18px;
-    }
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
   }
 `;
 
 export default function FeProjectItem(project: Project) {
-  const { id, title, bgImg, type, desc, skills, func, githubUrl, deployUrl } =
+  const { id, title, bgImg, type, desc, skills, notionUrl, deployUrl } =
     project;
 
   const skillList = skills.map((skill) => {
@@ -103,18 +79,6 @@ export default function FeProjectItem(project: Project) {
   return (
     <ProjectItemLi key={id} className="move-item">
       <ProjectThumbnail $bgImg={bgImg!}>
-        <div className="links">
-          {githubUrl && (
-            <CustomLink variant="gray" size="base" href={githubUrl}>
-              GitHub Repository
-            </CustomLink>
-          )}
-          {deployUrl && (
-            <CustomLink variant="primary" size="base" href={deployUrl}>
-              배포 URL
-            </CustomLink>
-          )}
-        </div>
         <span>{type}</span>
       </ProjectThumbnail>
       <ProjectInfo>
@@ -123,9 +87,17 @@ export default function FeProjectItem(project: Project) {
           <p className="desc">{desc}</p>
         </div>
         <ul className="skill-list">{skillList}</ul>
-        <div className="func">
-          <strong>담당 기능</strong>
-          <p>{func}</p>
+        <div className="links">
+          {notionUrl && (
+            <CustomLink variant="gray" size="base" href={notionUrl}>
+              프로젝트 자세히 보기
+            </CustomLink>
+          )}
+          {deployUrl && (
+            <CustomLink variant="primary" size="base" href={deployUrl}>
+              배포 URL
+            </CustomLink>
+          )}
         </div>
       </ProjectInfo>
     </ProjectItemLi>
