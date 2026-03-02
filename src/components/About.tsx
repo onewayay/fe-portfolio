@@ -1,11 +1,11 @@
-import { ReactTyped } from "react-typed";
-import CustomLink from "./common/CustomLink";
-import { StyledLabel } from "./common/Label";
+import { ReactTyped } from 'react-typed';
+import CustomLink from './common/CustomLink';
+import { StyledLabel } from './common/Label';
 
 export function AboutTypedTitle() {
   return (
     <ReactTyped
-      strings={["안녕하세요!\n프론트엔드 개발자 임한길 입니다."]}
+      strings={['안녕하세요!\n프론트엔드 개발자 임한길 입니다.']}
       typeSpeed={60}
       backSpeed={40}
       backDelay={2000}
@@ -125,11 +125,11 @@ export default function About() {
             <ul className="career-list">
               <li>
                 <strong>
-                  멋쟁이사자처럼 인턴십 <span>(2026.02 ~ 진행중)</span>
+                  멋쟁이사자처럼 인턴십 <span>(2026.02)</span>
                 </strong>
                 <p>
-                  프론트엔드 인턴으로 근무하며 AI 기술 블로그 글 생성 서비스
-                  작업을 진행중입니다.
+                  프론트엔드 단기 인턴으로 근무하며 AI 기술 블로그 글 생성
+                  서비스 작업을 진행하였습니다.
                 </p>
               </li>
               <li>
