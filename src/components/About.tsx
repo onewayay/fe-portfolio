@@ -1,11 +1,11 @@
-import { ReactTyped } from 'react-typed';
-import CustomLink from './common/CustomLink';
-import { StyledLabel } from './common/Label';
+import { ReactTyped } from "react-typed";
+import CustomLink from "./common/CustomLink";
+import { StyledLabel } from "./common/Label";
 
 export function AboutTypedTitle() {
   return (
     <ReactTyped
-      strings={['안녕하세요!\n프론트엔드 개발자 임한길 입니다.']}
+      strings={["안녕하세요!\n프론트엔드 개발자 임한길 입니다."]}
       typeSpeed={60}
       backSpeed={40}
       backDelay={2000}
@@ -82,6 +82,9 @@ export default function About() {
               </li>
               <li>
                 <StyledLabel>Tailwind CSS</StyledLabel>
+              </li>
+              <li>
+                <StyledLabel>shadcn/ui</StyledLabel>
               </li>
               <li>
                 <StyledLabel>JavaScript</StyledLabel>
