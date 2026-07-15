@@ -1,16 +1,10 @@
-import { ReactTyped } from "react-typed";
-import CustomLink from "./common/CustomLink";
-import { StyledLabel } from "./common/Label";
+import { ReactTyped } from 'react-typed';
+import CustomLink from './common/CustomLink';
+import { StyledLabel } from './common/Label';
 
 export function AboutTypedTitle() {
   return (
-    <ReactTyped
-      strings={["안녕하세요!\n프론트엔드 개발자 임한길 입니다."]}
-      typeSpeed={60}
-      backSpeed={40}
-      backDelay={2000}
-      loop
-    >
+    <ReactTyped strings={['안녕하세요!\n프론트엔드 개발자 임한길 입니다.']} typeSpeed={60} backSpeed={40} backDelay={2000} loop>
       <pre className="about-typed" />
     </ReactTyped>
   );
@@ -25,23 +19,12 @@ export default function About() {
             <AboutTypedTitle />
           </h2>
           <ul>
-            <li>
-              깔끔한 UI와 사용자 친화적인 웹 경험을 위해 노력하는 개발자입니다.
-            </li>
-            <li>
-              개발에 앞서 사용자 입장에서 생각하며 기획하는 것을 좋아합니다.
-            </li>
-            <li>
-              작업자가 즐거우면 사용자에게도 즐거운 결과물이 나온다고 믿으며
-              언제나 긍정적인 마음과 함께 새로움에 도전하고 있습니다.
-            </li>
+            <li>깔끔한 UI와 사용자 친화적인 웹 경험을 위해 노력하는 개발자입니다.</li>
+            <li>개발에 앞서 사용자 입장에서 생각하며 기획하는 것을 좋아합니다.</li>
+            <li>작업자가 즐거우면 사용자에게도 즐거운 결과물이 나온다고 믿으며 언제나 긍정적인 마음과 함께 새로움에 도전하고 있습니다.</li>
           </ul>
           <div className="links">
-            <CustomLink
-              variant="primary"
-              size="lg"
-              href="https://github.com/onewayay"
-            >
+            <CustomLink variant="primary" size="lg" href="https://github.com/onewayay">
               GitHub
             </CustomLink>
             <CustomLink variant="outline" size="lg" href="/resume/resume.pdf">
@@ -102,6 +85,12 @@ export default function About() {
                 <StyledLabel>Next.js</StyledLabel>
               </li>
               <li>
+                <StyledLabel>Zustand</StyledLabel>
+              </li>
+              <li>
+                <StyledLabel>Tanstack Query</StyledLabel>
+              </li>
+              <li>
                 <StyledLabel>Figma</StyledLabel>
               </li>
             </ul>
@@ -130,19 +119,13 @@ export default function About() {
                 <strong>
                   멋쟁이사자처럼 인턴십 <span>(2026.02)</span>
                 </strong>
-                <p>
-                  프론트엔드 단기 인턴으로 근무하며 AI 기술 블로그 글 생성
-                  서비스 작업을 진행하였습니다.
-                </p>
+                <p>프론트엔드 단기 인턴으로 근무하며 AI 기술 블로그 글 생성 서비스 작업을 진행하였습니다.</p>
               </li>
               <li>
                 <strong>
                   유영인포테크 <span>(2023.03 ~ 2024.09)</span>
                 </strong>
-                <p>
-                  웹 퍼블리셔로 근무하며 홈페이지 제작, 웹 접근성 작업 및
-                  유지보수 작업을 하였습니다.
-                </p>
+                <p>웹 퍼블리셔로 근무하며 홈페이지 제작, 웹 접근성 작업 및 유지보수 작업을 하였습니다.</p>
               </li>
             </ul>
           </li>
