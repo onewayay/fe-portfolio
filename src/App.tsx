@@ -109,11 +109,7 @@ function App() {
             <PubProjects />
           </div>
           <div className="image-container">
-            <img
-              src="/images/circle-bg-3x.webp"
-              alt=""
-              aria-hidden="true"
-            ></img>
+            <img src="/images/circle-bg-3x.webp" alt="" aria-hidden="true" fetchPriority="high" decoding="async"></img>
           </div>
         </main>
         <Footer />
