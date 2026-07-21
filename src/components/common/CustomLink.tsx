@@ -67,7 +67,8 @@ export default function CustomLink(props: CustomLinkProps) {
       $variant={variant}
       $size={size}
       href={href}
-      target="_blank"
+      target={download ? undefined : '_blank'}
+      rel={download ? undefined : 'noopener noreferrer'}
       title={download ? '파일 다운로드' : '새창열림으로 바로가기'}
       download={download}
     >
