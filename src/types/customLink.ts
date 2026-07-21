@@ -7,5 +7,5 @@ export interface CustomLinkProps {
   children: React.ReactNode;
   variant: CustomLinkVariant;
   size: CustomLinkSize;
-  download?: boolean | string;
+  download?: boolean;
 }
