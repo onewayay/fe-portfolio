@@ -27,7 +27,7 @@ export default function About() {
             <CustomLink variant="primary" size="lg" href="https://github.com/onewayay">
               GitHub
             </CustomLink>
-            <CustomLink variant="outline" size="lg" href="/resume/resume.pdf">
+            <CustomLink variant="outline" size="lg" href="/resume/resume.pdf" download={'프론트엔드 개발자 임한길 포트폴리오&이력서'}>
               이력서 다운로드
             </CustomLink>
           </div>

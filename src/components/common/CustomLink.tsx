@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-import type {
-  CustomLinkProps,
-  CustomLinkSize,
-  CustomLinkVariant,
-} from '../../types/customLink';
+import type { CustomLinkProps, CustomLinkSize, CustomLinkVariant } from '../../types/customLink';
 
 const variantStyles = {
   primary: {
@@ -65,14 +61,15 @@ export const StyledLink = styled.a<{
 `;
 
 export default function CustomLink(props: CustomLinkProps) {
-  const { children, variant, size, href } = props;
+  const { children, variant, size, href, download } = props;
   return (
     <StyledLink
       $variant={variant}
       $size={size}
       href={href}
       target="_blank"
-      title="새창열림으로 바로가기"
+      title={download ? '파일 다운로드' : '새창열림으로 바로가기'}
+      download={download}
     >
       {children}
     </StyledLink>
