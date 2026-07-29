@@ -5,18 +5,9 @@
     "bgImg": "/images/ugveg-thumb.png",
     "type": "팀 프로젝트 (4인)",
     "desc": "버려지는 못난이 농산물을 합리적인 가격에 제공하고, 그 농산물로 만든  레시피를 함께 나누는 커뮤니티 기반 쇼핑 플랫폼",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind CSS",
-      "Zustand",
-      "Figma",
-      "Vite",
-      "Vercel"
-    ],
+    "skills": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Figma", "Vite", "Vercel"],
     "notionUrl": "https://mango-haumea-e5f.notion.site/UgVeg-30a91c235079800facb9d98b95894a2a?source=copy_link",
-    "deployUrl": "https://ugveg.vercel.app/"
+    "deployUrl": "https://ugveg-oneway-2xqq.vercel.app/"
   },
   {
     "id": 2,
@@ -24,17 +15,7 @@
     "bgImg": "/images/AiScReam-thumb.jpg",
     "type": "팀 프로젝트 (4인)",
     "desc": "AI를 활용해 블로그 글 생성, 편집, 노션 발행과 다운로드까지 지원하는 개발자용 기술 블로그 생성 서비스",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind CSS",
-      "OpenAI API",
-      "Zustand",
-      "Figma",
-      "Lottie",
-      "Vercel"
-    ],
+    "skills": ["React", "TypeScript", "Next.js", "Tailwind CSS", "OpenAI API", "Zustand", "Figma", "Lottie", "Vercel"],
     "notionUrl": "https://mango-haumea-e5f.notion.site/AiScReam-31791c23507980639c01f13156a1692d?source=copy_link",
     "deployUrl": "https://aiscream.vercel.app/"
   },
@@ -44,16 +25,7 @@
     "bgImg": "/images/wlc-thumb.png",
     "type": "개인 프로젝트",
     "desc": "웨스트민스터 대요리문답 1문부터 196문까지의 한글 · 영문 문답과 각 문답에 인용된 성경 근거 구절을 함께 제공하는 신앙 학습 서비스",
-    "skills": [
-      "React",
-      "CSS",
-      "LocalStorage",
-      "Context API",
-      "Figma",
-      "v0",
-      "Vite",
-      "Vercel"
-    ],
+    "skills": ["React", "CSS", "LocalStorage", "Context API", "Figma", "v0", "Vite", "Vercel"],
     "notionUrl": "https://mango-haumea-e5f.notion.site/WLC-MOONLIGHT-30b91c23507980ada728c51414d0ea85?source=copy_link",
     "deployUrl": "https://wlcmoonlight.vercel.app/"
   },
@@ -63,16 +35,7 @@
     "bgImg": "/images/allmudo-thumb.jpg",
     "type": "팀 프로젝트 (2인)",
     "desc": "무한도전 종영 10주년을 맞아 없없무(없는게 없는 무한도전)의 짤들을 통해 미니 게임들과 상황별 이미지 찾기 기능을 제공하는 무한도전 팬 페이지",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "GSAP",
-      "Jotai",
-      "Figma",
-      "Vite",
-      "Vercel"
-    ],
+    "skills": ["React", "TypeScript", "Tailwind CSS", "GSAP", "Jotai", "Figma", "Vite", "Vercel"],
     "notionUrl": "https://mango-haumea-e5f.notion.site/Mudo-Playground-ALL-MUDO-30b91c23507980a79fcbd760a3f3a61e?source=copy_link",
     "deployUrl": "https://mudo-playground.vercel.app/"
   },
@@ -82,16 +45,7 @@
     "bgImg": "/images/pokemon-thumb.jpg",
     "type": "팀 프로젝트 (4인)",
     "desc": "Gacha 와 Slot 미니 게임을 통해, 포켓몬 카드를 수집하여 수집한 포켓몬을 도감에서 확인하고, 타입별로 분류하여 포켓몬 정보를 수집하는 추억의 포켓몬 카드 컬렉션 게임",
-    "skills": [
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "Three.js",
-      "LocalStorage",
-      "Figma",
-      "Vite",
-      "Netlify"
-    ],
+    "skills": ["HTML", "CSS", "TypeScript", "Three.js", "LocalStorage", "Figma", "Vite", "Netlify"],
     "notionUrl": "https://mango-haumea-e5f.notion.site/Pok-mon-Card-Collection-30a91c2350798026bb7dd959d261d5d0?source=copy_link",
     "deployUrl": "https://pokemon-cc.netlify.app/"
   }
